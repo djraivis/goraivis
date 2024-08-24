@@ -45,3 +45,5 @@ Check out [LICENSE](./LICENSE) for more detail.
 Looking for a Markdown note-taking app? Check out my app called Inkdrop:
 
 [![Inkdrop](https://github.com/craftzdog/dotfiles-public/raw/master/images/inkdrop.png)](https://www.inkdrop.app/)
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/2868a26d-c5d1-4087-bd4e-7ba0c4f436db/deploy-status)](https://app.netlify.com/sites/dazzling-daffodil-8ab42e/deploys)

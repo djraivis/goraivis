@@ -77,19 +77,19 @@ const Navbar = props => {
           flexGrow={1}
           mt={{ base: 4, md: 0 }}
         >
-          <LinkItem href="/works" path={path}>
+          {/* <LinkItem href="/works" path={path}>
             Works
           </LinkItem>
           <LinkItem href="/wallpapers" path={path}>
             Wallpapers
-          </LinkItem>
+          </LinkItem> */}
           <LinkItem href="/posts" path={path}>
             Posts
           </LinkItem>
-          <LinkItem href="https://uses.craftz.dog/">Uses</LinkItem>
+          <LinkItem href="https://js.rai.run/">Js</LinkItem>
           <LinkItem
             target="_blank"
-            href="https://github.com/craftzdog/craftzdog-homepage"
+            href="https://github.com/djraivis/craftzdog-homepage"
             path={path}
             display="inline-flex"
             alignItems="center"

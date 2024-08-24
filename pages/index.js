@@ -26,19 +26,20 @@ const Home = () => (
     <Container>
       <Box
         borderRadius="lg"
+        mt={10}
         mb={6}
         p={3}
         textAlign="center"
         bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
         css={{ backdropFilter: 'blur(10px)' }}
       >
-        Hello, I&apos;m an indie app developer based in London!
+        Hello, I&apos;m a JavaScript whiz who loves cracking coding challenges!
       </Box>
 
       <Box display={{ md: 'flex' }}>
         <Box flexGrow={1}>
           <Heading as="h2" variant="page-title">
-            R A I V I S
+            code with R A I V I S
           </Heading>
           <p>Digital Craftsman ( DJ Producer / Developer / QA )</p>
         </Box>
@@ -73,26 +74,25 @@ const Home = () => (
           Work
         </Heading>
         <Paragraph>
-          Raivis is a freelance and a full-stack developer based in Osaka with a
-          passion for building digital services/stuff he wants. He has a knack
-          for all things launching products, from planning and designing all the
-          way to solving real-life problems with code. When not online, he loves
-          hanging out with his camera. Currently, he is living off of his own
-          product called{' '}
+          Raivis is based in London with a passion for solving real-life problems with code. When not online, he loves
+          hanging out with his camera - 
+          
+          {/* Currently, he is living off of his own product called{' '}
+
           <Link as={NextLink} href="/works/inkdrop" passHref scroll={false}>
             Inkdrop
-          </Link>
-          . He publishes content for marketing his products and his YouTube
-          channel called &quot;
+          </Link>. He publishes content for marketing his products and his YouTube
+          channel called &quot; */}
+
           <Link
             as={NextLink}
-            href="https://www.youtube.com/devaslife"
+            href="https://unsplash.com/@timelesscoding"
             passHref
             target="_blank"
           >
-            Dev as Life
+            - Link to Unsplash
           </Link>
-          &quot; has more than 100k subscribers.
+          {/* &quot; has more than 100k subscribers. */}
         </Paragraph>
         <Box align="center" my={4}>
           <Button
@@ -107,7 +107,7 @@ const Home = () => (
         </Box>
       </Section>
 
-      <Section delay={0.2}>
+      {/* <Section delay={0.2}>
         <Heading as="h3" variant="section-title">
           Bio
         </Heading>
@@ -129,9 +129,9 @@ const Home = () => (
           <BioYear>2012 to present</BioYear>
           Working as a freelancer
         </BioSection>
-      </Section>
+      </Section> */}
 
-      <Section delay={0.3}>
+      {/* <Section delay={0.3}>
         <Heading as="h3" variant="section-title">
           I ♥
         </Heading>
@@ -146,13 +146,13 @@ const Home = () => (
           </Link>
           , Leica, Machine Learning
         </Paragraph>
-      </Section>
+      </Section> */}
 
       <Section delay={0.3}>
         <Heading as="h3" variant="section-title">
           On the web
         </Heading>
-        <List>
+        {/* <List>
           <ListItem>
             <Link href="https://github.com/craftzdog" target="_blank">
               <Button
@@ -197,34 +197,34 @@ const Home = () => (
               </Button>
             </Link>
           </ListItem>
-        </List>
+        </List> */}
 
         <SimpleGrid columns={[1, 2, 2]} gap={6}>
           <GridItem
-            href="https://www.youtube.com/timelesscoding"
+            href="https://www.youtube.com/@timelesscoding"
             title="Timeless Coding"
             thumbnail={thumbYouTube}
           >
-            My YouTube channel (&gt;200k subs)
+            My YouTube channel
           </GridItem>
           <GridItem
-            href="https://www.inkdrop.app/"
-            title="Inkdrop"
+            href="https://www.u.co.uk/"
+            title="U APP"
             thumbnail={thumbInkdrop}
           >
-            A Markdown note-taking app
+            The workplace where I am employed.
           </GridItem>
         </SimpleGrid>
 
-        <Heading as="h3" variant="section-title">
+        {/* <Heading as="h3" variant="section-title">
           Newsletter
         </Heading>
         <p>
           Join me on a behind-the-scenes coding journey. Weekly updates on
           projects, tutorials, and videos
-        </p>
+        </p> */}
 
-        <Box align="center" my={4}>
+        {/* <Box align="center" my={4}>
           <Button
             as={NextLink}
             href="https://www.devas.life/"
@@ -234,8 +234,9 @@ const Home = () => (
           >
             Sign up my newsletter here
           </Button>
-        </Box>
+        </Box> */}
       </Section>
+      
     </Container>
   </Layout>
 )
