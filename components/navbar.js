@@ -86,7 +86,7 @@ const Navbar = props => {
           <LinkItem href="/posts" path={path}>
             Posts
           </LinkItem>
-          <LinkItem href="https://js.rai.run/">Js</LinkItem>
+          <LinkItem href="https://js.rai.run/">Js70</LinkItem>
           <LinkItem
             target="_blank"
             href="https://github.com/djraivis/craftzdog-homepage"
@@ -116,21 +116,21 @@ const Navbar = props => {
                 <MenuItem as={MenuLink} href="/">
                   About
                 </MenuItem>
-                <MenuItem as={MenuLink} href="/works">
+                {/* <MenuItem as={MenuLink} href="/works">
                   Works
                 </MenuItem>
                 <MenuItem as={MenuLink} href="/wallpapers">
                   Wallpapers
-                </MenuItem>
+                </MenuItem> */}
                 <MenuItem as={MenuLink} href="/posts">
                   Posts
                 </MenuItem>
-                <MenuItem as={MenuLink} href="https://uses.craftz.dog/">
-                  Uses
+                <MenuItem as={MenuLink} href="https://js.rai.run/">
+                  Js70
                 </MenuItem>
                 <MenuItem
                   as={Link}
-                  href="https://github.com/craftzdog/craftzdog-homepage"
+                  href="https://github.com/djraivis/craftzdog-homepage"
                 >
                   View Source
                 </MenuItem>

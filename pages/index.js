@@ -97,12 +97,12 @@ const Home = () => (
         <Box align="center" my={4}>
           <Button
             as={NextLink}
-            href="/posts"
+            href="https://js.rai.run"
             scroll={false}
             rightIcon={<ChevronRightIcon />}
             colorScheme="teal"
           >
-            My posts
+            My Js70 challanges
           </Button>
         </Box>
       </Section>
