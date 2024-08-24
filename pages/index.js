@@ -10,7 +10,7 @@ import {
   // ListItem,
   useColorModeValue
 } from '@chakra-ui/react'
-// import { ChevronRightIcon, EmailIcon } from '@chakra-ui/icons'
+import { ChevronRightIcon, } from '@chakra-ui/icons'
 import Paragraph from '../components/paragraph'
 // import { BioSection, BioYear } from '../components/bio'
 import Layout from '../components/layouts/article'
@@ -97,12 +97,12 @@ const Home = () => (
         <Box align="center" my={4}>
           <Button
             as={NextLink}
-            href="/works"
+            href="/posts"
             scroll={false}
             rightIcon={<ChevronRightIcon />}
             colorScheme="teal"
           >
-            My portfolio
+            My posts
           </Button>
         </Box>
       </Section>
