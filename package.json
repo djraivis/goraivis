@@ -10,7 +10,7 @@
     "lint": "next lint"
   },
   "keywords": [],
-  "author": "Timeless Coding",
+  "author": "GoRaivis",
   "license": "MIT",
   "dependencies": {
     "@chakra-ui/icons": "^2.1.1",

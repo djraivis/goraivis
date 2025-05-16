@@ -16,20 +16,20 @@ const Main = ({ children, router }) => {
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="description" content="Raivis's homepage" />
-        <meta name="author" content="Timeless Coding" />
+        <meta name="author" content="GoRaivis" />
         <meta name="author" content="djraivis" />
         <link rel="apple-touch-icon" href="apple-touch-icon.png" />
         <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
-        <meta name="twitter:title" content="Timeless Coding" />
-        <meta name="twitter:card" content="summary_large_image" />
+        {/* <meta name="twitter:title" content="GoRaivis" /> */}
+        {/* <meta name="twitter:card" content="summary_large_image" /> */}
         <meta name="twitter:site" content="@djraivis" />
         <meta name="twitter:creator" content="@djraivis" />
-        <meta name="twitter:image" content="https://www.craftz.dog/card.png" />
-        <meta property="og:site_name" content="Timeless Coding" />
-        <meta name="og:title" content="Timeless Coding" />
+        {/* <meta name="twitter:image" content="https://www.craftz.dog/card.png" /> */}
+        <meta property="og:site_name" content="GoRaivis" />
+        <meta name="og:title" content="GoRaivis" />
         <meta property="og:type" content="website" />
-        <meta property="og:image" content="https://www.craftz.dog/card.png" />
-        <title>RAI.RUN - Homepage</title>
+        {/* <meta property="og:image" content="https://www.craftz.dog/card.png" /> */}
+        <title>GoRaivis - Homepage</title>
       </Head>
 
       <NavBar path={router.asPath} />

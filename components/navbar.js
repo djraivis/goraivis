@@ -86,7 +86,7 @@ const Navbar = props => {
           <LinkItem href="/posts" path={path}>
             Posts
           </LinkItem>
-          <LinkItem href="https://js.rai.run/">Js70</LinkItem>
+          <LinkItem href="https://js.goraivis.com/">Raivis Goes Js</LinkItem>
           <LinkItem
             target="_blank"
             href="https://github.com/djraivis/craftzdog-homepage"
@@ -125,7 +125,7 @@ const Navbar = props => {
                 <MenuItem as={MenuLink} href="/posts">
                   Posts
                 </MenuItem>
-                <MenuItem as={MenuLink} href="https://js.rai.run/">
+                <MenuItem as={MenuLink} href="https://js.goraivis/">
                   Js70
                 </MenuItem>
                 <MenuItem

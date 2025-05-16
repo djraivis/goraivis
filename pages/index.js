@@ -10,7 +10,7 @@ import {
   // ListItem,
   useColorModeValue
 } from '@chakra-ui/react'
-import { ChevronRightIcon, } from '@chakra-ui/icons'
+import { ChevronRightIcon } from '@chakra-ui/icons'
 import Paragraph from '../components/paragraph'
 // import { BioSection, BioYear } from '../components/bio'
 import Layout from '../components/layouts/article'
@@ -41,7 +41,7 @@ const Home = () => (
           <Heading as="h2" variant="page-title">
             code with R A I V I S
           </Heading>
-          <p>Digital Craftsman ( DJ Producer / Developer / QA )</p>
+          <p>( DJ Producer / Developer / QA )</p>
         </Box>
         <Box
           flexShrink={0}
@@ -74,19 +74,13 @@ const Home = () => (
           Work
         </Heading>
         <Paragraph>
-          Raivis is based in London with a passion for solving real-life problems with code. When not online, he loves
-          hanging out with his camera - 
-          
-          {/* Currently, he is living off of his own product called{' '}
-
-          <Link as={NextLink} href="/works/inkdrop" passHref scroll={false}>
-            Inkdrop
-          </Link>. He publishes content for marketing his products and his YouTube
-          channel called &quot; */}
-
+          Raivis here — QA by title, developer at heart. Go for the backend,
+          JavaScript for the frontend, terminal for everything. Clean code and
+          continuous learning keep me going. --- I shoot photos when I’m not
+          shipping code.
           <Link
             as={NextLink}
-            href="https://unsplash.com/@timelesscoding"
+            href="https://unsplash.com/@goraivis"
             passHref
             target="_blank"
           >
@@ -97,12 +91,12 @@ const Home = () => (
         <Box align="center" my={4}>
           <Button
             as={NextLink}
-            href="https://js.rai.run"
+            href="https://js.goraivis.com/"
             scroll={false}
             rightIcon={<ChevronRightIcon />}
             colorScheme="teal"
           >
-            My Js70 challanges
+            My JavaScript challanges
           </Button>
         </Box>
       </Section>
@@ -202,17 +196,18 @@ const Home = () => (
         <SimpleGrid columns={[1, 2, 2]} gap={6}>
           <GridItem
             href="https://www.youtube.com/@timelesscoding"
-            title="Timeless Coding"
+            title="GoRaivis"
             thumbnail={thumbYouTube}
           >
-            My YouTube channel
+            YouTube
           </GridItem>
           <GridItem
             href="https://www.u.co.uk/"
             title="U APP"
             thumbnail={thumbInkdrop}
           >
-            The workplace where I am employed.
+            I&apos;m part of the team behind U APP, helping test and shape its
+            development from the inside..
           </GridItem>
         </SimpleGrid>
 
@@ -236,7 +231,6 @@ const Home = () => (
           </Button>
         </Box> */}
       </Section>
-      
     </Container>
   </Layout>
 )
