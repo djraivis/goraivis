@@ -17,10 +17,9 @@ import thumbNeovimDevas from '../public/images/contents/youtube-neovim-devas.jpg
 const Posts = () => (
   <Layout title="Posts">
     <Container>
-      <Heading as="h3" fontSize={20} mb={4}>
-        Here, you will find a series of coding videos that I deeply admire and learn from each day. My hope is that, someday, I will be able to create and share my own videos, passing on the knowledge I have gained.
+      <Heading as="h2" fontSize={16} mb={10} mt={8} textAlign="center">
+        Daily inspiration lives here. I learn, I grow. Dive in
       </Heading>
-    
 
       <Section delay={0.1}>
         <SimpleGrid columns={[1, 2, 2]} gap={6}>
